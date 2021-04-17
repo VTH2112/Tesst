@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: black;
+            color: white;
+            font-size: 50px;
+        }
+
+        .top {
+            height: 92px;
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: grey;
+            width: 700px;
+            height: 250px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .bottom-content {
+            display: flex;
+            justify-content: center;
+        }
+
+        input {
+            height: 40px;
+            width: 300px;
+        }
+
+        .button {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Lucky Number</h1>
+        </div>
+        <div class="bottom">
+            <div class="top-content">
+                <p>Dự đoán con số của bạn nằm trong khoảng từ 1 đến 10</p>
+            </div>
+            <div class="bottom-content">
+                <input type="number" placeholder="Nhập con số mà bạn dự đoán ở đây " id="input">
+                <button class="button" id="btn">Quay số </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
